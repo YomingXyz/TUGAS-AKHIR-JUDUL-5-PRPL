@@ -7,6 +7,11 @@ Program ini berfungsi sebagai fitur pencatatan dan rekapitulasi nominal transaks
 Program dilengkapi dengan fitur utama BST yaitu insert (untuk mencatat nominal belanja baru), search (untuk mengecek transaksi tertentu), inorder (untuk melihat keseluruhan riwayat transaksi yang otomatis terurut dari terkecil ke terbesar), find_min dan find_max (mengecek rekor transaksi), serta kalkulasi count_nodes (menghitung total pelanggan) dan sum_nodes (menghitung total omzet pendapatan). Untuk mencegah terjadinya *crash* saat program berjalan, menu input juga sudah dibungkus dengan validasi try-except sehingga jika pengguna memasukkan selain angka (seperti huruf) pada pilihan menu, program akan tetap berjalan dan memberikan peringatan.
 
 C. Source Code
+<img width="878" height="944" alt="Cuplikan layar 2026-05-22 213525" src="https://github.com/user-attachments/assets/03ab2a68-d4a4-44c1-a1ff-47e3c3736a1b" />
+<img width="637" height="892" alt="Cuplikan layar 2026-05-22 213536" src="https://github.com/user-attachments/assets/ad5161cb-6598-4241-8b9a-ee80fafbcc6b" />
+<img width="1064" height="889" alt="Cuplikan layar 2026-05-22 213547" src="https://github.com/user-attachments/assets/86b34def-ae16-4364-a974-a90269a29a91" />
+<img width="911" height="906" alt="Cuplikan layar 2026-05-22 213557" src="https://github.com/user-attachments/assets/026fc486-3f94-4cdf-a008-461957bf29e0" />
+<img width="1018" height="511" alt="Cuplikan layar 2026-05-22 213605" src="https://github.com/user-attachments/assets/3d535efb-7a13-46e7-9191-f377993dacb6" />
 
 * membuat class Node: sebagai cetak biru untuk membuat kotak penyimpan data nominal transaksi
 * membuat fungsi inisialisasi def **init**(self, key): yang pertama kali jalan saat Node baru dibuat
@@ -62,6 +67,11 @@ C. Source Code
 * memastikan program bisa dijalankan langsung dari terminal dengan if **name** == "**main**": main()
 
 D. Output Program
+<img width="646" height="986" alt="Cuplikan layar 2026-05-22 213340" src="https://github.com/user-attachments/assets/2e800b7e-3eef-494c-997f-5bfd02255cdb" />
+<img width="648" height="982" alt="Cuplikan layar 2026-05-22 213349" src="https://github.com/user-attachments/assets/e3aec8f0-c457-4c26-8c9a-1e24d651cf15" />
+<img width="697" height="985" alt="Cuplikan layar 2026-05-22 213401" src="https://github.com/user-attachments/assets/c1aaf369-f60d-46a2-83c6-17b4d5f5f765" />
+<img width="657" height="449" alt="Cuplikan layar 2026-05-22 213407" src="https://github.com/user-attachments/assets/d1df97bc-8f3b-4046-b986-4c480f145b21" />
+
 Penjelasan Output:
 Saat program dijalankan, akan muncul antarmuka menu "Sistem Rekap Transaksi SiToserba". Pertama, kasir menginputkan angka "1" untuk mencatat transaksi baru, lalu memasukkan nominal sebesar 50000. Program merespons dengan menampilkan "Transaksi senilai Rp50000 berhasil dicatat". Kasir kembali memilih menu 1 beberapa kali untuk memasukkan nominal transaksi pembeli berikutnya secara acak, misalnya 30000 dan 70000.
 Ketika kasir memilih menu "3" (Daftar Transaksi Inorder), program secara otomatis menampilkan seluruh riwayat nominal uang yang sudah diurutkan dari yang terkecil hingga terbesar (30000 50000 70000) berkat sifat bawaan Binary Search Tree. Selanjutnya, kasir menekan angka "6" dan "7" untuk melihat transaksi terkecil dan terbesar hari itu, di mana program berhasil menampilkan Rp30000 untuk Min dan Rp70000 untuk Max. Pada saat toko akan tutup, kasir memilih menu "8" untuk mengecek total pelanggan dan menu "9" untuk menghitung total omzet. Program secara akurat menjumlahkan total pembeli sebanyak 3 orang dan total omzet sejumlah Rp150000. Setelah selesai, kasir memilih menu "10" dan program ditutup.
