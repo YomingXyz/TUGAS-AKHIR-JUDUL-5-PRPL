@@ -67,3 +67,4 @@ Saat program dijalankan, akan muncul antarmuka menu "Sistem Rekap Transaksi SiTo
 Ketika kasir memilih menu "3" (Daftar Transaksi Inorder), program secara otomatis menampilkan seluruh riwayat nominal uang yang sudah diurutkan dari yang terkecil hingga terbesar (30000 50000 70000) berkat sifat bawaan Binary Search Tree. Selanjutnya, kasir menekan angka "6" dan "7" untuk melihat transaksi terkecil dan terbesar hari itu, di mana program berhasil menampilkan Rp30000 untuk Min dan Rp70000 untuk Max. Pada saat toko akan tutup, kasir memilih menu "8" untuk mengecek total pelanggan dan menu "9" untuk menghitung total omzet. Program secara akurat menjumlahkan total pembeli sebanyak 3 orang dan total omzet sejumlah Rp150000. Setelah selesai, kasir memilih menu "10" dan program ditutup.
 
 E. Link YouTube:
+https://youtu.be/P2pSaw9RD0w?si=ZIoNQP0FudrfwxDV
